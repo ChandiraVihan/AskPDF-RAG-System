@@ -1,6 +1,29 @@
-langchain
-langchain-community
-streamlit
-chromadb
-pypdf
-sentence-transformers
+# Core
+ollama>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+transformers>=4.40.0
+accelerate>=0.30.0
+
+# PDF Processing
+pymupdf>=1.24.0  # PyMuPDF - free, fast
+pdf2image>=1.17.0
+pytesseract>=0.3.13
+unstructured>=0.16.0  # For complex PDFs
+
+# Multimodal
+open-clip-torch>=2.24.0
+pillow>=10.0.0
+
+# Web Research 
+crawl4ai>=0.4.0  # Free web scraper
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# LangChain 
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=0.2.0
+
+# UI
+streamlit>=1.40.0
